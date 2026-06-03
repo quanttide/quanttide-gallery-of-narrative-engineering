@@ -25,12 +25,12 @@ gallery/
 
 每部作品或每个独立的风格体系，在所属一级类别下创建一个目录。目录名使用英文 kebab-case，体现**场景类型**而非风格名称：
 
-| 目录名 | 场景 | style.yaml 中的 model.title |
-|--------|------|---------------------------|
-| `urban-romance` | 都市言情 | 克制浪漫 |
-| `campus-romance` | 校园言情 | 校园轻甜 |
+| 目录名 | style `name` | style `title` |
+|--------|-------------|-------------|
+| `urban-romance` | `urban-romance` | 克制浪漫 |
+| `campus-romance` | `campus-romance` | 校园轻甜 |
 
-目录名回答"这是什么类型的作品"，`model.title` 回答"这是什么风格"。
+目录名与 `name` 字段一致。
 
 **每个二级类别包含的文件**
 
@@ -42,7 +42,7 @@ gallery/
 **style.yaml 结构**
 
 ```yaml
-id: UUID                    # 唯一标识
+name: kebab-case-slug        # 唯一标识，如 urban-romance
 title: 风格名称              # 如"克制浪漫"
 description: 一句话风格描述
 
