@@ -4,7 +4,8 @@
 
 model:
   version: 1
-  summary: "克制的浪漫主义，日常的深情叙事。淡而有味，缓而有深。"
+  title: 咖啡厅重逢
+  description: 克制的浪漫主义，日常的深情叙事。淡而有味，缓而有深。
 
 dimensions:
   - title: 总体风格定位
