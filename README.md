@@ -36,8 +36,8 @@ gallery/
 
 | 文件 | 必选 | 说明 |
 |------|------|------|
-| `style.yaml` | ✅ | 10 维度的风格模型，含 `dimensions`、`examples` |
-| `sample.md` | ❌ | 精选样本片段，供 LLM 参考。可选，有则更佳 |
+| `style.yaml` | ✅ | 10 维度的风格模型，含 `dimensions`、`snippets` |
+| `sample.md` | ❌ | 完整场景样本，供 LLM 整体阅读。可选，有则更佳 |
 
 **style.yaml 结构**
 
@@ -55,8 +55,8 @@ dimensions:
       - 线索 2
     contradictions: []          # 反例（可选）
 
-examples:
-  - paragraph: |-              # 代表性段落
+snippets:
+  - paragraph: |-              # 代表性短片段
       原文...
     dimension: 所属维度名称
     note: 为什么选这段
