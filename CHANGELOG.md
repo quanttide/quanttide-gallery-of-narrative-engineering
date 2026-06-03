@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [0.1.2] - 2026-06-03
+
+### Changed
+
+- 移除 `model` 包装层级，根字段改为 `name/title/description`
+- `name` 使用 slug（`urban-romance`、`campus-romance`），替代 UUID
+- 更新 `README.md` 中的结构说明
+
 ## [0.1.1] - 2026-06-03
 
 ### Changed
