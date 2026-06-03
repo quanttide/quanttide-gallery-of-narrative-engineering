@@ -3,9 +3,29 @@
 # 版本: 1, 样本数: 1
 
 model:
-  version: 1
-  title: 咖啡厅重逢
+  title: 克制浪漫
   description: 克制的浪漫主义，日常的深情叙事。淡而有味，缓而有深。
+
+signature:
+  pov: third_limited                    # first_person / third_limited / third_omniscient
+  tense: past                            # past / present
+  paragraph_avg_len: 120                 # 平均段落长度（字符）
+  dialog_ratio: 0.35                     # 对话占比
+  flashback_ratio: 0.25                  # 闪回占比
+  vocabulary_richness: 0.72              # 词汇丰富度
+  emotion_tone: restrained_warm          # restrained / warm / intense
+  common_phrases:
+    - "十年"
+    - "如果当时"
+    - "忘不了"
+    - "舍不得"
+    - "回过神来"
+  sentence_starters:
+    - "他"
+    - "她"
+    - "那是"
+    - "窗外的"
+    - "不知不觉"
 
 dimensions:
   - title: 总体风格定位
@@ -86,27 +106,6 @@ dimensions:
     confidence: 0.95
     evidence:
       - 十个关键词贯穿所有场景和人物行为
-
-signature:
-  pov: third_limited                    # first_person / third_limited / third_omniscient
-  tense: past                            # past / present
-  paragraph_avg_len: 120                 # 平均段落长度（字符）
-  dialog_ratio: 0.35                     # 对话占比
-  flashback_ratio: 0.25                  # 闪回占比
-  vocabulary_richness: 0.72              # 词汇丰富度
-  emotion_tone: restrained_warm          # restrained / warm / intense
-  common_phrases:
-    - "十年"
-    - "如果当时"
-    - "忘不了"
-    - "舍不得"
-    - "回过神来"
-  sentence_starters:
-    - "他"
-    - "她"
-    - "那是"
-    - "窗外的"
-    - "不知不觉"
 
 examples:
   - paragraph: |-
