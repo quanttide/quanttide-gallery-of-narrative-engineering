@@ -42,9 +42,9 @@ gallery/
 **style.yaml 结构**
 
 ```yaml
-model:
-  title: 风格名称              # 如"克制浪漫"
-  description: 一句话风格描述
+id: UUID                    # 唯一标识
+title: 风格名称              # 如"克制浪漫"
+description: 一句话风格描述
 
 dimensions:
   - title: 维度名称            # 10 个固定维度
