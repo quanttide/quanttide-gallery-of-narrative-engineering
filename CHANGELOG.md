@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [0.1.1] - 2026-06-03
+
+### Changed
+
+- `style.yaml` 中的字段名 `examples` → `excerpts`，与 `sample.md` 区分（摘录 vs 完整场景）
+- 二级类别目录名改为英文 kebab-case（`urban-romance`、`campus-romance`）
+- `README.md` 术语统一为"一级类别/二级类别"
+
 ## [0.1.0] - 2026-06-03
 
 初始化案例库。
