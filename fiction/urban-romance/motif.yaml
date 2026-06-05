@@ -7,234 +7,31 @@ description: 贯穿全书的反复出现的情感符号与叙事模式。
 
 motifs:
   - name: 十年
-    description: 核心时间母题。"喜欢了十年"在多个场景反复出现，每一年的沉默都为最终的表白增加当量。
-    function: 情感悬念
-    layer: structural
+    description: 核心时间母题。"喜欢了十年"在酒吧、咖啡厅、书房、海边等场景反复出现。
     weight: 10
-    occurrences:
-      - scene: 酒吧
-        evidence: "喜欢，很喜欢，喜欢了十年。喜欢地想要发疯。"
-        intensity: 5
-      - scene: 咖啡厅
-        evidence: "那是他存了十年的照片。"
-        intensity: 4
-      - scene: 书房
-        evidence: "转眼间已经十年了。这条路我已经独自走了十年。"
-        intensity: 4
-      - scene: 海边
-        evidence: "十年了。现在的他成熟稳重地像一滩清水。"
-        intensity: 3
-      - scene: 深夜失眠
-        evidence: "十年了。那只优雅的天鹅如今变得干练利落。"
-        intensity: 3
-      - scene: 阳台
-        evidence: "转眼间已经十年了。"
-        intensity: 3
+    scenes: [酒吧, 咖啡厅, 书房, 海边, 深夜失眠, 阳台]
+    note: 每一年的沉默都为最终的表白增加当量。不是"突然爱上"，是"爱了很久"。
 
   - name: 手势
-    description: 全书最高级的情感表达不在台词里，在手里。手是情感的代理器官。每个手势都是一个情感的微小爆破——在不该触碰的时候触碰，反应先于理性。
-    function: 替代语言
-    layer: expressive
+    description: 全书最高级的情感表达不在台词里，在手里。递毛巾、捏肩、拉手腕、拥抱、擦眼泪——每个手势都是情感的微小爆破，在不该触碰的时候触碰，反应先于理性。
     weight: 9
-    occurrences:
-      - scene: 咖啡厅
-        evidence: "不知不觉间，他的手已经伸了出去，轻轻地擦了擦她的头发。"
-        intensity: 5
-      - scene: 便利店
-        evidence: "她忍不住伸出手捏了捏他的肩。啊…！好舒服。"
-        intensity: 4
-      - scene: 海边
-        evidence: "他突然拽起她的手腕向前跑去。"
-        intensity: 5
-      - scene: 公园
-        evidence: "她抱住他。他身体僵直……他的手慢慢抬起来，抱住了她。"
-        intensity: 5
-      - scene: 阳台
-        evidence: "她轻轻地握住了他的手，另一只手抹了抹他的眼角。"
-        intensity: 4
-      - scene: 深夜失眠
-        evidence: "鬼使神差地递毛巾的时候，回过神来又害怕自己越界。"
-        intensity: 4
-
-  - name: 毛巾
-    description: 全书最有力的单一物件象征。毛巾承载了关切、犹豫、越界与克制。从咖啡厅初次相遇的核心道具开始，在深夜失眠中被反复回味。
-    function: 关切与克制的双重象征
-    layer: symbolic
-    weight: 8
-    occurrences:
-      - scene: 咖啡厅
-        evidence: "他看了看她湿漉漉的头发，从书包里掏出刚在超市买的毛巾。不知不觉间，他的手已经伸了出去。"
-        intensity: 5
-      - scene: 深夜失眠
-        evidence: "雨天的她有点狼狈。鬼使神差地递毛巾的时候，回过神来又害怕自己越界。"
-        intensity: 4
-    notes:
-      - 毛巾是超市新买的——说明他不是随身携带，而是特意去买的
-      - "擦"的动作比"递"更亲密，是本能越过理性的瞬间
+    scenes: [咖啡厅, 便利店, 海边, 公园拥抱, 阳台, 深夜失眠]
+    note: 毛巾是全书最有力的单一手势实例。从超市特意买的、揣在包里、"不知不觉"伸出去、"擦"比"递"更亲密——一个物件承载关切、犹豫、越界、回味四个阶段。
 
   - name: 雨
-    description: 天气作为命运干涉的隐喻。每一次重要相遇都发生在雨中或雨后。雨是叙事者伪装成天气的命运之手。
-    function: 制造偶然性
-    layer: structural
+    description: 天气作为命运干涉的隐喻。咖啡厅重逢、便利店闲坐、夜市约会——每一次重要相遇都发生在雨中或雨后。
     weight: 7
-    occurrences:
-      - scene: 咖啡厅
-        evidence: "春天的一个工作日的下午，咖啡店外下着淅淅沥沥的小雨。"
-        intensity: 5
-      - scene: 便利店
-        evidence: "她急匆匆地下楼，到楼下看到下雨，又急匆匆地上楼拿伞。"
-        intensity: 4
-      - scene: 夜市
-        evidence: "春天的雨夜过后，夜市的人流量比平常少了很多。"
-        intensity: 3
-      - scene: 阳台
-        evidence: "窗外的雨停了又下，下了又停。他忘不了，也不想忘。"
-        intensity: 4
-
-  - name: 窗外
-    description: 一个重复出现的空间标记，标明人物处于"观看但不参与"的姿态。窗内是孤独的自我，窗外是渴望的世界。从独自看窗到拍窗外的天空给对方，窗口从隔绝的象征变为连接的通道。
-    function: 孤独与连接的视野转换
-    layer: symbolic
-    weight: 6
-    occurrences:
-      - scene: 咖啡厅
-        evidence: "他愣神看着窗外的雨水沿着屋檐滑落到地面上。"
-        intensity: 4
-      - scene: 便利店
-        evidence: "他坐在24小时便利店靠窗的位置，看着雨丝从路灯的光线中穿过。"
-        intensity: 3
-      - scene: 问早
-        evidence: "他穿好衣服，打开窗户，外面的阳光耀眼。他拍了一张天空给她。"
-        intensity: 4
-      - scene: 夜市
-        evidence: "窗外的雨停了。要不要去附近的夜市吃个夜宵？"
-        intensity: 3
-
-  - name: 回过神来
-    description: 全书最高频的心理动词。每当人物在无意识中流露出真情、然后骤然意识到自己的行为时，标记了理性防线被情感击穿后又重新建立的过程。
-    function: 理性与真情的拉锯
-    layer: expressive
-    weight: 8
-    occurrences:
-      - scene: 咖啡厅
-        evidence: "擦了两下，他回过神来。赶忙停下来，把毛巾递给她。"
-        intensity: 5
-      - scene: 咖啡厅
-        evidence: "她也不舍地回过神，慢慢伸手接过毛巾。"
-        intensity: 4
-      - scene: 深夜失眠
-        evidence: "鬼使神差地递毛巾的时候，回过神来又害怕自己越界。"
-        intensity: 5
-      - scene: 咖啡厅
-        evidence: "听到门口的声响，他本能地转过头。看到眼前窈窕的身影，他愣住了。不是梦。"
-        intensity: 5
-
-  - name: 白衬衣
-    description: 他留给她的第一印象——贯穿十年的视觉锚点。她在便利店还想起十年前第一次看到他的样子。
-    function: 时间穿越的视觉锚点
-    layer: symbolic
-    weight: 5
-    occurrences:
-      - scene: 酒吧
-        evidence: "只记得是白色的衬衣，黑色的裤子。显得腿长。你本来也苗条。"
-        intensity: 4
-      - scene: 深夜失眠
-        evidence: "十年前他在台上演讲，意气风发。"
-        intensity: 3
-      - scene: 海边
-        evidence: "灯光下的那道影子，是贯穿了一整个青春里的身影。"
-        intensity: 3
-
-  - name: 歌声
-    description: 音乐是情感的温度计。特定歌曲标记特定场景的情感浓度。歌词替人物说出说不出口的话。
-    function: 叙事者借来的声带
-    layer: structural
-    weight: 6
-    occurrences:
-      - scene: 书房
-        evidence: "小爱同学，播放都智文的《夜与昼》。原来我曾有过裂口，等你照亮我的宇宙。"
-        intensity: 5
-      - scene: 阳台
-        evidence: "难道让时间倒流，世界尽头，要陪在你左右。"
-        intensity: 4
+    scenes: [咖啡厅, 便利店, 夜市, 阳台]
+    note: 雨制造偶然性。没有雨，他们不会在咖啡厅相遇；没有雨，她不会去便利店找他。雨是叙事者伪装成天气的命运之手。
 
   - name: 创业者的孤独
-    description: 跨越场景的社会身份母题。他的职业身份不是装饰，而是性格的一部分。他孤独不仅是"暗恋十年"，更是"独自扛了十年"的创始人。
-    function: 让人物立体
-    layer: expressive
+    description: 他的孤独不仅是"暗恋十年"，更是"独自扛了十年"的创始人。便利店的海聊、海边的自白、书房里的"黑心资本家"互怼——职业身份不是装饰，是性格的一部分。
     weight: 7
-    occurrences:
-      - scene: 便利店
-        evidence: "都是一群找不到人类说话的可怜人。"
-        intensity: 4
-      - scene: 海边
-        evidence: "我越来越习惯一个人。在我的世界里充满了情绪索取。"
-        intensity: 5
-      - scene: 书房
-        evidence: "他们还有你，我更心疼在他们那个年纪在风暴中孤独无助的你。"
-        intensity: 4
-      - scene: 小龙虾
-        evidence: "有一种把自己内心挖空的感觉。那一阵子感觉自己和世界都隔离开了。"
-        intensity: 4
-      - scene: 阳台
-        evidence: "一个想着要延续千年的皮包公司。但是这份吐槽着支持的爱，是独属于人类而不属于 AI 的不合理。"
-        intensity: 3
+    scenes: [便利店, 海边, 书房, 小龙虾, 阳台]
+    note: 她心疼的不仅是"喜欢了十年的人"，更是"在风暴中孤独无助的你"。这才让深情男不空洞。
 
-  - name: 粉色行李箱
-    description: "她的行李箱是粉色的。似乎还是当年那个小女生。" 行李箱暗示漂泊，粉色暗示不变的内核。
-    function: 成长中的不变
-    layer: symbolic
-    weight: 4
-    occurrences:
-      - scene: 咖啡厅
-        evidence: "她的行李箱是粉色的。似乎还是当年那个小女生。"
-        intensity: 4
-      - scene: 深夜失眠
-        evidence: "她的行李箱是粉色的。似乎还是当年那个小女生。"
-        intensity: 3
-
-distribution:
-  scenes:
-    - name: 咖啡厅重逢
-      motifs: [十年, 手势, 毛巾, 雨, 窗外, 回过神来, 粉色行李箱]
-      density: 7
-    - name: 书房陪伴
-      motifs: [十年, 手势, 创业者孤独, 歌声]
-      density: 4
-    - name: 便利店闲坐
-      motifs: [手势, 雨, 窗外, 创业者孤独]
-      density: 4
-    - name: 海边散步
-      motifs: [十年, 手势, 创业者孤独]
-      density: 3
-    - name: 酒吧表白
-      motifs: [十年, 白衬衣]
-      density: 2
-    - name: 深夜失眠
-      motifs: [十年, 手势, 毛巾, 白衬衣, 粉色行李箱]
-      density: 5
-    - name: 傍晚小龙虾
-      motifs: [雨, 创业者孤独]
-      density: 2
-    - name: 公园拥抱
-      motifs: [手势]
-      density: 1
-    - name: 阳台看星星
-      motifs: [十年, 手势, 创业者孤独, 歌声]
-      density: 4
-    - name: 互相问早
-      motifs: [窗外]
-      density: 1
-
-layers:
-  - name: structural
-    description: 推动叙事——制造悬念、偶然性、替代直白抒情
-    motifs: [十年, 雨, 歌声]
-
-  - name: expressive
-    description: 替代语言——情感的微小爆破、理性与真情的拉锯、立体人物
-    motifs: [手势, 回过神来, 创业者的孤独]
-
-  - name: symbolic
-    description: 承载记忆——时间的可视化、象征物、视觉锚点、视野转换
-    motifs: [毛巾, 窗外, 白衬衣, 粉色行李箱]
+  - name: 歌声
+    description: 特定歌曲标记特定场景的情感浓度。都智文《夜与昼》在书房、Falling You 在阳台，歌词替人物说出说不出口的话。
+    weight: 5
+    scenes: [书房, 阳台]
+    note: 叙事者借来的声带。出现次数少但载荷高。
