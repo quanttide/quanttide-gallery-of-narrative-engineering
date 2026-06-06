@@ -1,7 +1,7 @@
 name: urban-romance
 title: 克制浪漫
 description: 克制的浪漫主义，日常的深情叙事。淡而有味，缓而有深。
-dimensions:
+styles:
 - title: 叙事母题与核心矛盾
   description: 小说表面写的是都市男女的相遇与情感，内核是"漫长的暗恋"与"迟到的双向奔赴"。不走浓烈狗血路线，不依赖激烈冲突，而是用细腻的日常细节、克制的情绪流露、以及时间维度上的厚重感打动读者。
   boundaries:
