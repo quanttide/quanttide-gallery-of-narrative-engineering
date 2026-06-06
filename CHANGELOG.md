@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [0.1.5] - 2026-06-06
+
+### Changed
+
+- `story.yaml`: 字段名 `scenes` → `plots`，与情节建模路线对齐
+
 ## [0.1.4] - 2026-06-06
 
 ### Added
