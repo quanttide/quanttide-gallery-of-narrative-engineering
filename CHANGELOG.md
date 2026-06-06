@@ -4,9 +4,7 @@
 
 ### Changed
 
-- `style.yaml`: 重构数据结构——用 `boundaries` 替代 `clues` + `tensions` + `excerpts` + `negative_excerpts` + `relational_stages`，每个维度配决策规则和判断标准
-- `story.yaml`: 删除 `plots` 中的 `clues` 和 `tensions` 字段
-- `motif.yaml`: 简化 `description`，删除 `clues` 和 `tensions`
+- `style.yaml`: 维度新增 `boundaries` 字段（决策规则 + 判断标准），删除 `clues`、`tensions`、`excerpts`
 
 ## [0.1.5] - 2026-06-06
 
