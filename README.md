@@ -64,9 +64,10 @@ dimensions:
   - title: 维度名称            # 10 个固定维度
     description: 该维度的详细描述（2-4 句，含具体场景和手法）
     confidence: 0.0-1.0        # 提炼确信度
-    clues:                     # 支撑该判断的原文线索（含边界情况、内在张力）
+    clues:                     # 支撑该判断的原文线索
       - 线索 1
       - 线索 2
+    tensions: []                # 维度的边界情况或内在张力（可选）
 
 excerpts:
   - paragraph: |-              # 代表性短片段
